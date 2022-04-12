@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Getting Font Awesome Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Volkhov&display=swap" rel="stylesheet">
+    <title>Jira Ticket Clone</title>
+</head>
+
+<body>
+
+
+    <!-- Tool Box -->
+    <div class="toolbox-cont">
+        <div class="toolbox-priority-cont">
+            <div class="lightpink color"></div>
+            <div class="lightblue color"></div>
+            <div class="lightgreen color"></div>
+            <div class="black color"></div>
+        </div>
+
+        <div class="toolbox-action-btn-cont">
+            <div class="add-btn">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="remove-btn">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Container -->
+    <div class="main-cont">
+        <!-- *️⃣Structure of a ticket -->
+        <!-- <div class="ticket-cont">
+            <div class="ticket-color"></div>
+            <div class="ticket-id">#Sample_id</div>
+            <div class="ticket-task-area" spellcheck="false">Lorem ipsum dolor sit amet.</div>
+            <div class="ticket-lock-icon">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+        </div> -->
+    </div>
+
+    <div class="modal-cont">
+        <textarea spellcheck="false" class="textarea-cont" placeholder="Enter your task.."></textarea>
+
+        <div class="priority-color-cont">
+            <div class="lightpink priority-color"></div>
+            <div class="lightblue priority-color"></div>
+            <div class="lightgreen priority-color"></div>
+            <div class="black priority-color border"></div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/shortid-dist@1.0.5/dist/shortid-2.2.13.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

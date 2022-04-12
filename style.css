@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.toolbox-cont {
+    height: 5rem;
+    background-color: #3d3d3d;
+    display: flex;
+    align-items: center;
+}
+
+.toolbox-cont>* {
+    margin-left: 4rem;
+    border-radius: 2px;
+}
+
+.toolbox-priority-cont {
+    height: 3.5rem;
+    width: 16rem;
+    background-color: #4b4b4b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.toolbox-action-btn-cont {
+    height: 3.5rem;
+    width: 8rem;
+    background-color: #4b4b4b;
+    display: flex;
+}
+
+.toolbox-action-btn-cont>* {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    color: #d1d8e0;
+    font-size: 2rem;
+}
+
+.toolbox-action-btn-cont>*:hover {
+    background-color: #485460;
+}
+
+.color {
+    height: 1.3rem;
+    width: 2.5rem;
+    /* background-color: burlywood; */
+    border-radius: 2px;
+}
+
+.lightpink {
+    background-color: lightpink;
+}
+
+.lightblue {
+    background-color: lightblue;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+}
+
+.black {
+    background-color: black;
+}
+
+.modal-cont {
+    height: 50vh;
+    width: 40vw;
+    /* ⏬absolute se Document ke flow se bhar nikal diya*/
+    position: absolute;
+    top: calc((100vh - 50vh)/2);
+    left: calc((100vw - 40vw)/2);
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+.textarea-cont {
+    height: 100%;
+    width: 75%;
+    background-color: #dfe4ea;
+    border: none;
+    outline: none;
+    padding: 2rem;
+    resize: none;
+    font-size: 1.5rem;
+}
+
+.priority-color-cont {
+    height: 100%;
+    width: 25%;
+    background-color: #3d3d3d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.priority-color {
+    height: 3rem;
+    width: 55%;
+}
+
+.border {
+    border: 5px solid #f1f2f6;
+}
+
+.ticket-cont {
+    height: 12rem;
+    width: 16rem;
+    background-color: #f1f2f6;
+    /* display: block; */
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.ticket-color {
+    height: 1rem;
+    /* background-color: black; */
+}
+
+.ticket-id {
+    height: 2rem;
+    background-color: #f1f2f6;
+    padding: 0.4rem;
+}
+
+.ticket-task-area {
+    height: calc(100% - 1rem - 2rem - 2rem);
+    padding: 0.4rem;
+    outline: none;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Volkhov', serif;
+}
+
+.ticket-lock-icon {
+    height: 2rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1.5rem;
+    color: #a4b0be;
+}
+
+.main-cont {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+    justify-content: center;
+}
